@@ -1,0 +1,22 @@
+{
+    "name": "zxy/php-rabbitmq",
+    "description": "rabbitmq class write by php",
+    "type": "library",
+    "require": {
+        "php-amqplib/php-amqplib": ">=2.8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zxy\\PhpRabbitmq\\": "src/",
+            "Demo\\": "demo/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zxy",
+            "email": "xingyang@mcvago.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
